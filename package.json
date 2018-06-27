@@ -1,0 +1,37 @@
+{
+  "name": "crossfit-tilt",
+  "version": "1.0.0",
+  "description": "get the daily workout from crossfit tilt",
+  "main": "index.js",
+  "scripts": {
+    "test": "karma"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vibro/crossfit-tilt.git"
+  },
+  "keywords": [
+    "crossfit",
+    "wod",
+    "workout",
+    "alexa",
+    "skill"
+  ],
+  "author": "Tori Brown",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/vibro/crossfit-tilt/issues"
+  },
+  "homepage": "https://github.com/vibro/crossfit-tilt#readme",
+  "dependencies": {
+    "alexa-sdk": "^1.0.25",
+    "axios": "^0.18.0",
+    "cheerio": "^1.0.0-rc.2",
+    "moment": "^2.20.1",
+    "moment-timezone": "^0.5.21",
+    "request": "^2.83.0",
+    "request-promise": "^4.2.2",
+    "serverless": "^1.27.3",
+    "ssml-builder": "^0.4.3"
+  }
+}
